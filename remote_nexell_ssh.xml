@@ -2,7 +2,7 @@
 <manifest>
   <remote name="nexell"
       fetch="https://github.com"
-      review="gerrithub.coasianexell.com"
+      review="gerrit.coasianexell.com"
       sync-j="8"
   />
 </manifest>
