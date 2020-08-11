@@ -71,7 +71,7 @@
   <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
   <project path="layers/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
   <project path="layers/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
-  <project path="layers/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="sumo" />
+  <project path="layers/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="krogoth" />
   <project path="layers/meta-swupdate" name="CoasiaNexell/yocto_meta-swupdate" groups="yocto" remote="nexell" revision="sumo" />
   <project path="layers/meta-nexell" name="CoasiaNexell/yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo-dev" />
 
