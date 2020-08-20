@@ -68,11 +68,11 @@
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo-dev" />
   <project path="nxp3220_tools" name="CoasiaNexell/nxp3220_tool" groups="tools" remote="nexell" revision="sumo-dev" />
 
-  <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
-  <project path="layers/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
-  <project path="layers/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
-  <project path="layers/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="krogoth" />
-  <project path="layers/meta-swupdate" name="CoasiaNexell/yocto_meta-swupdate" groups="yocto" remote="nexell" revision="sumo" />
+  <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="dunfell" />
+  <project path="layers/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="dunfell" />
+  <project path="layers/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="dunfell" />
+  <project path="layers/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="dunfell" />
+  <project path="layers/meta-swupdate" name="CoasiaNexell/yocto_meta-swupdate" groups="yocto" remote="nexell" revision="dunfell" />
   <project path="layers/meta-nexell" name="CoasiaNexell/yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo-dev" />
 
   <project path="nx_version_info" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell" revision="master" />
