@@ -74,6 +74,10 @@
   <project path="layers/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="dunfell" />
   <project path="layers/meta-swupdate" name="CoasiaNexell/yocto_meta-swupdate" groups="yocto" remote="nexell" revision="dunfell" />
   <project path="layers/meta-nexell" name="CoasiaNexell/yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo-dev" />
+  <!--toolchain-->
+  <project path="vendor/nexell/toolchain/arm-eabi-4.8" name="CoasiaNexell/toolchain_arm_eabi_4.8" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf" name="CoasiaNexell/toolchain_linaro-2014.11" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" name="CoasiaNexell/toolchain_linaro-2015.05" groups="pdk" remote="nexell" revision="pie-dev" />
 
   <project path="nx_version_info" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell" revision="master" />
 
