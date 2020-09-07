@@ -65,7 +65,11 @@
   <project path="vendor/nexell/solutions/displayaudio-sdk" name="CoasiaNexell/linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
   <project path="vendor/nexell/buildroot" name="CoasiaNexell/buildroot" groups="solutions" remote="nexell" revision="2019.02-nexell" />
 
-  <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo-dev" />
+  <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo-dev" >
+    <linkfile src="envsetup.sh" dest="envsetup.sh" />
+    <linkfile src="copy-results-images.sh" dest="copy-results-images.sh" />
+  </project>
+
   <project path="nxp3220_tools" name="CoasiaNexell/nxp3220_tool" groups="tools" remote="nexell" revision="sumo-dev" />
 
   <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="dunfell" />
