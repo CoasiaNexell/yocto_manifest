@@ -67,7 +67,6 @@
 
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo-dev" >
     <linkfile src="envsetup.sh" dest="envsetup.sh" />
-    <linkfile src="copy-results-images.sh" dest="copy-results-images.sh" />
   </project>
 
   <project path="nxp3220_tools" name="CoasiaNexell/nxp3220_tool" groups="tools" remote="nexell" revision="sumo-dev" />
