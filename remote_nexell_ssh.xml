@@ -3,6 +3,7 @@
   <remote name="nexell"
       fetch="https://github.com"
       review="gerrit.coasianexell.com"
+	  revision="refs/tags/dunfell_alpha1"
       sync-j="8"
   />
 </manifest>

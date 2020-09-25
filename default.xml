@@ -3,85 +3,85 @@
 
   <include name="remote_nexell_ssh.xml" />
 
-  <project path="vendor/nexell/bl1/bl1-s5p6818" name="CoasiaNexell/bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/bl1/bl1-s5p4418" name="CoasiaNexell/bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/bl1/bl1-nxp3220-binary" name="CoasiaNexell/bl1_nxp3220-binary" groups="bl1" remote="nexell" revision="master" />
+  <project path="vendor/nexell/bl1/bl1-s5p6818" name="CoasiaNexell/bl1_s5p6818" groups="bl1" remote="nexell"  />
+  <project path="vendor/nexell/bl1/bl1-s5p4418" name="CoasiaNexell/bl1_s5p4418" groups="bl1" remote="nexell"  />
+  <project path="vendor/nexell/bl1/bl1-nxp3220-binary" name="CoasiaNexell/bl1_nxp3220-binary" groups="bl1" remote="nexell"  />
 
-  <project path="vendor/nexell/secure/l-loader" name="CoasiaNexell/secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/arm-trusted-firmware" name="CoasiaNexell/secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_build" name="CoasiaNexell/secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_client" name="CoasiaNexell/secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_linuxdriver" name="CoasiaNexell/secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_os" name="CoasiaNexell/secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_test" name="CoasiaNexell/secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/armv7-dispatcher" name="CoasiaNexell/secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/bl2-s5p4418" name="CoasiaNexell/bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/bl2-nxp3220" name="CoasiaNexell/bl2_nxp3220" groups="secure" remote="nexell" revision="master" />
-  <project path="vendor/nexell/secure/bl32-nxp3220" name="CoasiaNexell/bl32_nxp3220" groups="secure" remote="nexell" revision="master" />
+  <project path="vendor/nexell/secure/l-loader" name="CoasiaNexell/secure_l-loader" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/arm-trusted-firmware" name="CoasiaNexell/secure_arm-trusted-firmware" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/optee/optee_build" name="CoasiaNexell/secure_optee_optee-build" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/optee/optee_client" name="CoasiaNexell/secure_optee_optee-client" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/optee/optee_linuxdriver" name="CoasiaNexell/secure_optee_optee-linuxdriver" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/optee/optee_os" name="CoasiaNexell/secure_optee_optee-os" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/optee/optee_test" name="CoasiaNexell/secure_optee_optee-test" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/armv7-dispatcher" name="CoasiaNexell/secure_armv7-dispatcher" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/bl2-s5p4418" name="CoasiaNexell/bl2_s5p4418" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/bl2-nxp3220" name="CoasiaNexell/bl2_nxp3220" groups="secure" remote="nexell"  />
+  <project path="vendor/nexell/secure/bl32-nxp3220" name="CoasiaNexell/bl32_nxp3220" groups="secure" remote="nexell"  />
 
-  <project path="vendor/nexell/u-boot/u-boot-2016.01" name="CoasiaNexell/u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/u-boot/u-boot-2018.5" name="CoasiaNexell/u-boot-2017.05" groups="u-boot" remote="nexell" revision="2018.05-nxp3220" />
+  <project path="vendor/nexell/u-boot/u-boot-2016.01" name="CoasiaNexell/u-boot-2016.01" groups="u-boot" remote="nexell"  />
+  <project path="vendor/nexell/u-boot/u-boot-2018.5" name="CoasiaNexell/u-boot-2017.05" groups="u-boot" remote="nexell" />
 
-  <project path="vendor/nexell/kernel/kernel-4.4.x" name="CoasiaNexell/linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/kernel/kernel-4.14" name="CoasiaNexell/linux_kernel-4.14.x" groups="kernel" remote="nexell" revision="linux-4.14-nxp3220" />
+  <project path="vendor/nexell/kernel/kernel-4.4.x" name="CoasiaNexell/linux_kernel-4.4.x" groups="kernel" remote="nexell"  />
+  <project path="vendor/nexell/kernel/kernel-4.14" name="CoasiaNexell/linux_kernel-4.14.x" groups="kernel" remote="nexell" />
 
-  <project path="vendor/nexell/library/gst-plugins-camera" name="CoasiaNexell/linux_library_gst-plugin-camera" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/gst-plugins-renderer" name="CoasiaNexell/linux_library_gst-plugins-renderer" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/gst-plugins-scaler" name="CoasiaNexell/linux_library_gst-plugins-scaler" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/gst-plugins-video-dec" name="CoasiaNexell/linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/gst-plugins-video-enc" name="CoasiaNexell/linux_library_gst-plugins-video-enc" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/gst-plugins-video-sink" name="CoasiaNexell/linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/library/gst-plugins-camera" name="CoasiaNexell/linux_library_gst-plugin-camera" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/gst-plugins-renderer" name="CoasiaNexell/linux_library_gst-plugins-renderer" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/gst-plugins-scaler" name="CoasiaNexell/linux_library_gst-plugins-scaler" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/gst-plugins-video-dec" name="CoasiaNexell/linux_library_gst-plugins-video-dec" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/gst-plugins-video-enc" name="CoasiaNexell/linux_library_gst-plugins-video-enc" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/gst-plugins-video-sink" name="CoasiaNexell/linux_library_gst-plugins-video-sink" groups="library" remote="nexell"  />
 
-  <project path="vendor/nexell/library/libdrm" name="CoasiaNexell/linux_library_libdrm" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-drm-allocator" name="CoasiaNexell/linux_library_nx-drm-allocator" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-gst-meta" name="CoasiaNexell/linux_library_nx-gst-meta" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-renderer" name="CoasiaNexell/linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-scaler" name="CoasiaNexell/linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-v4l2" name="CoasiaNexell/linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-video-api" name="CoasiaNexell/linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-gl-tools" name="CoasiaNexell/linux_library_nx-gl-tools" groups="library" remote="nexell" revision="master" />
-  <project path="vendor/nexell/library/nx-uds" name="CoasiaNexell/linux_library_nx_uds" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-config" name="CoasiaNexell/linux_library_nx_config" groups="library" remote="nexell" revision="master" />
-  <project path="vendor/nexell/library/xf86-video-armsoc" name="CoasiaNexell/linux_library_xf86-video-armsoc" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/libdirectfb-nexell" name="CoasiaNexell/linux_library_libdirectfb-nexell" groups="library" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/library/libdrm" name="CoasiaNexell/linux_library_libdrm" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-drm-allocator" name="CoasiaNexell/linux_library_nx-drm-allocator" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-gst-meta" name="CoasiaNexell/linux_library_nx-gst-meta" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-renderer" name="CoasiaNexell/linux_library_nx-renderer" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-scaler" name="CoasiaNexell/linux_library_nx-scaler" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-v4l2" name="CoasiaNexell/linux_library_nx-v4l2" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-video-api" name="CoasiaNexell/linux_library_nx-video-api" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-gl-tools" name="CoasiaNexell/linux_library_nx-gl-tools" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-uds" name="CoasiaNexell/linux_library_nx_uds" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/nx-config" name="CoasiaNexell/linux_library_nx_config" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/xf86-video-armsoc" name="CoasiaNexell/linux_library_xf86-video-armsoc" groups="library" remote="nexell"  />
+  <project path="vendor/nexell/library/libdirectfb-nexell" name="CoasiaNexell/linux_library_libdirectfb-nexell" groups="library" remote="nexell"  />
 
-  <project path="vendor/nexell/apps/testsuite" name="CoasiaNexell/linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/apps/nx_video_api_test" name="CoasiaNexell/linux_apps_nx_video_api_test" groups="apps" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/apps/nx_init" name="CoasiaNexell/nx_init" groups="yocto" remote="nexell" revision="master" />
-  <project path="vendor/nexell/apps/nx_quickrearcam" name="CoasiaNexell/linux_apps_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
-  <project path="vendor/nexell/apps/svm_daemon" name="CoasiaNexell/solution_svm_daemon" groups="yocto" remote="nexell" revision="master" />
-  <project path="vendor/nexell/apps/hwio" name="CoasiaNexell/linux_apps_hwio" groups="apps" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/apps/i2c_test" name="CoasiaNexell/linux_apps_i2c_test" groups="apps" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/apps/disk_test" name="CoasiaNexell/linux_apps_disk_test" groups="apps" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/apps/nx_vip_test" name="CoasiaNexell/linux_apps_nx_vip_test" groups="apps" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/apps/sleep_rtc_alarm" name="CoasiaNexell/linux_apps_sleep_rtc_alarm" groups="apps" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/apps/iso7816_test" name="CoasiaNexell/linux_apps_iso7816_test" groups="apps" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/apps/testsuite" name="CoasiaNexell/linux_apps_testsuite" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/nx_video_api_test" name="CoasiaNexell/linux_apps_nx_video_api_test" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/nx_init" name="CoasiaNexell/nx_init" groups="yocto" remote="nexell"  />
+  <project path="vendor/nexell/apps/nx_quickrearcam" name="CoasiaNexell/linux_apps_NxQuickRearCam" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/svm_daemon" name="CoasiaNexell/solution_svm_daemon" groups="yocto" remote="nexell"  />
+  <project path="vendor/nexell/apps/hwio" name="CoasiaNexell/linux_apps_hwio" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/i2c_test" name="CoasiaNexell/linux_apps_i2c_test" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/disk_test" name="CoasiaNexell/linux_apps_disk_test" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/nx_vip_test" name="CoasiaNexell/linux_apps_nx_vip_test" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/sleep_rtc_alarm" name="CoasiaNexell/linux_apps_sleep_rtc_alarm" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/iso7816_test" name="CoasiaNexell/linux_apps_iso7816_test" groups="apps" remote="nexell"  />
 
 
-  <project path="vendor/nexell/apps/QT/NxAudioPlayer" name="CoasiaNexell/linux_apps_QT_NxAudioPlayer" groups="apps" remote="nexell" revision="master" />
-  <project path="vendor/nexell/apps/QT/NxVideoPlayer" name="CoasiaNexell/linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell" revision="master" />
-  <project path="vendor/nexell/apps/QT/NxQuickRearCam" name="CoasiaNexell/linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
+  <project path="vendor/nexell/apps/QT/NxAudioPlayer" name="CoasiaNexell/linux_apps_QT_NxAudioPlayer" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/QT/NxVideoPlayer" name="CoasiaNexell/linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell"  />
+  <project path="vendor/nexell/apps/QT/NxQuickRearCam" name="CoasiaNexell/linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell"  />
 
-  <project path="vendor/nexell/solutions/displayaudio-sdk" name="CoasiaNexell/linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
-  <project path="vendor/nexell/buildroot" name="CoasiaNexell/buildroot" groups="solutions" remote="nexell" revision="2019.02-nexell" />
+  <project path="vendor/nexell/solutions/displayaudio-sdk" name="CoasiaNexell/linux_sdk_displayaudio" groups="solutions" remote="nexell"  />
+  <project path="vendor/nexell/buildroot" name="CoasiaNexell/buildroot" groups="solutions" remote="nexell" />
 
-  <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo-dev" >
+  <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell"  >
     <linkfile src="envsetup.sh" dest="envsetup.sh" />
   </project>
 
-  <project path="nxp3220_tools" name="CoasiaNexell/nxp3220_tool" groups="tools" remote="nexell" revision="sumo-dev" />
+  <project path="nxp3220_tools" name="CoasiaNexell/nxp3220_tool" groups="tools" remote="nexell" />
 
-  <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="dunfell" />
-  <project path="layers/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="dunfell" />
-  <project path="layers/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="dunfell" />
-  <project path="layers/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="dunfell" />
-  <project path="layers/meta-swupdate" name="CoasiaNexell/yocto_meta-swupdate" groups="yocto" remote="nexell" revision="dunfell" />
-  <project path="layers/meta-nexell" name="CoasiaNexell/yocto_meta-nexell" groups="yocto" remote="nexell" revision="dunfell-dev" />
+  <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" />
+  <project path="layers/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" />
+  <project path="layers/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" />
+  <project path="layers/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" />
+  <project path="layers/meta-swupdate" name="CoasiaNexell/yocto_meta-swupdate" groups="yocto" remote="nexell" />
+  <project path="layers/meta-nexell" name="CoasiaNexell/yocto_meta-nexell" groups="yocto" remote="nexell" />
   <!--toolchain-->
-  <project path="vendor/nexell/toolchain/arm-eabi-4.8" name="CoasiaNexell/toolchain_arm_eabi_4.8" groups="pdk" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf" name="CoasiaNexell/toolchain_linaro-2014.11" groups="pdk" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" name="CoasiaNexell/toolchain_linaro-2015.05" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/toolchain/arm-eabi-4.8" name="CoasiaNexell/toolchain_arm_eabi_4.8" groups="pdk" remote="nexell" />
+  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf" name="CoasiaNexell/toolchain_linaro-2014.11" groups="pdk" remote="nexell" />
+  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" name="CoasiaNexell/toolchain_linaro-2015.05" groups="pdk" remote="nexell" />
 
-  <project path="nx_version_info" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell" revision="master" />
+  <project path="nx_version_info" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell"  />
 
 </manifest>
