@@ -15,8 +15,6 @@
   <project path="secure/armv7-dispatcher" name="CoasiaNexell/secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
   <project path="u-boot/u-boot-2016.01" name="CoasiaNexell/u-boot-2016.01" groups="u-boot" remote="nexell" revision="btc08" />
   <project path="kernel/kernel-4.4.x" name="CoasiaNexell/linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="btc08" />
-  <project path="library/libdrm" name="CoasiaNexell/linux_library_libdrm" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/xf86-video-armsoc" name="CoasiaNexell/linux_library_xf86-video-armsoc" groups="library" remote="nexell" revision="nexell" />
   <project path="apps/testsuite" name="CoasiaNexell/linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="btc08" />
   <project path="yocto/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
@@ -24,5 +22,4 @@
   <project path="yocto/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/meta-nexell" name="CoasiaNexell/yocto_meta-nexell" groups="yocto" remote="nexell" revision="btc08" />
-  <project path="nx_version_info" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell" revision="master" />
 </manifest>
