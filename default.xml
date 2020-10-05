@@ -16,6 +16,7 @@
   <project path="u-boot/u-boot-2016.01" name="CoasiaNexell/u-boot-2016.01" groups="u-boot" remote="nexell" revision="btc08" />
   <project path="kernel/kernel-4.4.x" name="CoasiaNexell/linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="btc08" />
   <project path="apps/testsuite" name="CoasiaNexell/linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
+  <project path="apps/cgminer" name="CoasiaNexell/linux_apps_cgminer" groups="apps" remote="nexell" revision="btc08" />
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="btc08" />
   <project path="yocto/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
