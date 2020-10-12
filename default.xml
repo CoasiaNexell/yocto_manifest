@@ -62,7 +62,7 @@
   <project path="vendor/nexell/apps/QT/NxVideoPlayer" name="CoasiaNexell/linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell" revision="master" />
   <project path="vendor/nexell/apps/QT/NxQuickRearCam" name="CoasiaNexell/linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
 
-  <project path="vendor/nexell/solutions/displayaudio-sdk" name="CoasiaNexell/linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
+  <project path="vendor/nexell/solutions/displayaudio-sdk" name="CoasiaNexell/linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="yocto-dunfell" />
   <project path="vendor/nexell/buildroot" name="CoasiaNexell/buildroot" groups="solutions" remote="nexell" revision="2019.02-nexell" />
 
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo-dev" >
