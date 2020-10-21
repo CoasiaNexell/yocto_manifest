@@ -16,19 +16,7 @@
   <project path="secure/armv7-dispatcher" name="CoasiaNexell/secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
   <project path="u-boot/u-boot-2016.01" name="CoasiaNexell/u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
   <project path="kernel/kernel-4.4.x" name="CoasiaNexell/linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell" />
-  <project path="library/gst-plugins-camera" name="CoasiaNexell/linux_library_gst-plugin-camera" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/gst-plugins-renderer" name="CoasiaNexell/linux_library_gst-plugins-renderer" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/gst-plugins-scaler" name="CoasiaNexell/linux_library_gst-plugins-scaler" groups="library" remote="nexell" revision="nexell" />
   <project path="library/libdrm" name="CoasiaNexell/linux_library_libdrm" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-drm-allocator" name="CoasiaNexell/linux_library_nx-drm-allocator" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-gst-meta" name="CoasiaNexell/linux_library_nx-gst-meta" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-renderer" name="CoasiaNexell/linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-scaler" name="CoasiaNexell/linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-v4l2" name="CoasiaNexell/linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-video-api" name="CoasiaNexell/linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-gl-tools" name="CoasiaNexell/linux_library_nx-gl-tools" groups="library" remote="nexell" revision="master" />
-  <project path="library/nx-uds" name="CoasiaNexell/linux_library_nx_uds" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/nx-config" name="CoasiaNexell/linux_library_nx_config" groups="library" remote="nexell" revision="master" />
   <project path="library/xf86-video-armsoc" name="CoasiaNexell/linux_library_xf86-video-armsoc" groups="library" remote="nexell" revision="nexell" />
   <project path="apps/testsuite" name="CoasiaNexell/linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo" />
@@ -37,16 +25,5 @@
   <project path="yocto/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/meta-qt5" name="CoasiaNexell/yocto_meta-qt5" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/meta-nexell" name="CoasiaNexell/yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo" />
-  <project path="apps/QT/NxAudioPlayer" name="CoasiaNexell/linux_apps_QT_NxAudioPlayer" groups="apps" remote="nexell" revision="master" />
-  <project path="apps/QT/NxVideoPlayer" name="CoasiaNexell/linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell" revision="master" />
-  <project path="apps/QT/NxQuickRearCam" name="CoasiaNexell/linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
-  <project path="apps/nx_video_api_test" name="CoasiaNexell/linux_apps_nx_video_api_test" groups="apps" remote="nexell" revision="nexell" />
-  <project path="library/gst-plugins-video-dec" name="CoasiaNexell/linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/gst-plugins-video-enc" name="CoasiaNexell/linux_library_gst-plugins-video-enc" groups="library" remote="nexell" revision="nexell" />
-  <project path="library/gst-plugins-video-sink" name="CoasiaNexell/linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
-  <project path="solutions/displayaudio-sdk" name="CoasiaNexell/linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
   <project path="apps/svm_daemon" name="CoasiaNexell/solution_svm_daemon" groups="yocto" remote="nexell" revision="master" />
-  <project path="apps/nx_init" name="CoasiaNexell/nx_init" groups="yocto" remote="nexell" revision="master" />
-  <project path="apps/nx_quickrearcam" name="CoasiaNexell/linux_apps_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
-  <project path="nx_version_info" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell" revision="master" />
 </manifest>
