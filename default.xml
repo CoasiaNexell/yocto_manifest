@@ -7,17 +7,17 @@
   <project path="vendor/nexell/bl1/bl1-s5p4418" name="CoasiaNexell/bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell" />
   <project path="vendor/nexell/bl1/bl1-nxp3220-binary" name="CoasiaNexell/bl1_nxp3220-binary" groups="bl1" remote="nexell" revision="master" />
 
-  <project path="vendor/nexell/secure/l-loader" name="CoasiaNexell/secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/arm-trusted-firmware" name="CoasiaNexell/secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_build" name="CoasiaNexell/secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_client" name="CoasiaNexell/secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_linuxdriver" name="CoasiaNexell/secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_os" name="CoasiaNexell/secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee/optee_test" name="CoasiaNexell/secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/armv7-dispatcher" name="CoasiaNexell/secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/bl2-s5p4418" name="CoasiaNexell/bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/bl2-nxp3220" name="CoasiaNexell/bl2_nxp3220" groups="secure" remote="nexell" revision="master" />
-  <project path="vendor/nexell/secure/bl32-nxp3220" name="CoasiaNexell/bl32_nxp3220" groups="secure" remote="nexell" revision="master" />
+  <project path="vendor/nexell/firmware/l-loader" name="CoasiaNexell/secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/arm-trusted-firmware" name="CoasiaNexell/secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/optee/optee_build" name="CoasiaNexell/secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/optee/optee_client" name="CoasiaNexell/secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/optee/optee_linuxdriver" name="CoasiaNexell/secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/optee/optee_os" name="CoasiaNexell/secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/optee/optee_test" name="CoasiaNexell/secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/armv7-dispatcher" name="CoasiaNexell/secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/bl2-s5p4418" name="CoasiaNexell/bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/firmware/bl2-nxp3220" name="CoasiaNexell/bl2_nxp3220" groups="secure" remote="nexell" revision="master" />
+  <project path="vendor/nexell/firmware/bl32-nxp3220" name="CoasiaNexell/bl32_nxp3220" groups="secure" remote="nexell" revision="master" />
 
   <project path="vendor/nexell/u-boot/u-boot-2016.01" name="CoasiaNexell/u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
   <project path="vendor/nexell/u-boot/u-boot-2018.5" name="CoasiaNexell/u-boot-2017.05" groups="u-boot" remote="nexell" revision="2018.05-nxp3220" />
@@ -68,9 +68,7 @@
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="sumo-dev" >
     <linkfile src="envsetup.sh" dest="envsetup.sh" />
   </project>
-
-  <project path="nxp3220_tools" name="CoasiaNexell/nxp3220_tool" groups="tools" remote="nexell" revision="sumo-dev" />
-
+  
   <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="dunfell" />
   <project path="layers/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="dunfell" />
   <project path="layers/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="dunfell" />
