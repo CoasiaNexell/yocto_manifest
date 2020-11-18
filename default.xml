@@ -80,6 +80,6 @@
   <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf" name="CoasiaNexell/toolchain_linaro-2014.11" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" name="CoasiaNexell/toolchain_linaro-2015.05" groups="pdk" remote="nexell" revision="pie-dev" />
 
-  <project path="nx_version_info" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell" revision="master" />
+  <project path="version" name="CoasiaNexell/nx_version_info" groups="swversion" remote="nexell" revision="master" />
 
 </manifest>
