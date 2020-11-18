@@ -66,7 +66,7 @@
   <project path="vendor/nexell/buildroot" name="CoasiaNexell/buildroot" groups="solutions" remote="nexell" revision="2019.02-nexell" />
 
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="dunfell-dev" >
-    <linkfile src="envsetup.sh" dest="envsetup.sh" />
+    <linkfile src="scripts/envsetup.sh" dest="envsetup.sh" />
   </project>
   
   <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="dunfell" />
