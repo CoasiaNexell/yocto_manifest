@@ -68,7 +68,9 @@
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="dunfell-dev" >
     <linkfile src="scripts/envsetup.sh" dest="envsetup.sh" />
   </project>
-  
+  <project path="tools/nxp3220" name="CoasiaNexell/nxp3220_bsp_files" groups="yocto" remote="nexell" revision="master" />
+  <project path="tools/s5pxx18" name="CoasiaNexell/s5pxx18_bsp_files" groups="yocto" remote="nexell" revision="master" />
+
   <project path="layers/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="dunfell" />
   <project path="layers/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="dunfell" />
   <project path="layers/meta-openembedded" name="CoasiaNexell/yocto_meta-openembedded" groups="yocto" remote="nexell" revision="dunfell" />
