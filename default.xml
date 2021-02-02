@@ -18,6 +18,7 @@
   <project path="apps/testsuite" name="CoasiaNexell/linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
   <project path="apps/cgminer" name="CoasiaNexell/linux_apps_cgminer" groups="apps" remote="nexell" revision="btc08" />
   <project path="apps/spidevtest" name="CoasiaNexell/linux_apps_spidevtest" groups="apps" remote="nexell" revision="master" />
+  <project path="apps/btc08_test" name="CoasiaNexell/linux_apps_btc08_test" groups="apps" remote="nexell" revision="master" />
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="btc08" />
   <project path="yocto/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
