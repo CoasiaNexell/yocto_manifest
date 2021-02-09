@@ -18,6 +18,7 @@
   <project path="kernel/kernel-4.4.x" name="CoasiaNexell/linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="vapor-gang" />
   <project path="library/libdrm" name="CoasiaNexell/linux_library_libdrm" groups="library" remote="nexell" revision="nexell" />
   <project path="library/xf86-video-armsoc" name="CoasiaNexell/linux_library_xf86-video-armsoc" groups="library" remote="nexell" revision="nexell" />
+  <project path="apps/GangWriter" name="CoasiaNexell/linux_apps_vapor_gangwriter" groups="application" remote="nexell" revision="master" />
   <project path="tools" name="CoasiaNexell/yocto_tools" groups="tools" remote="nexell" revision="vapor-gang" />
   <project path="yocto/poky" name="CoasiaNexell/yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/openembedded-core" name="CoasiaNexell/yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
